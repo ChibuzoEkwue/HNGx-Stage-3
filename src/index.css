@@ -1,0 +1,38 @@
+:root {
+  font-family: 'Inter', sans-serif;
+  --bg-color: #F1EFEF;
+  --primary-color: #0d0c22
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--primary-color);
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+}
+
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 990px;
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,112 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.naverror {
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.589);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.naverror p {
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.loginForm {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    width: 40%;
+}
+
+.loginForm form {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.loginForm form h2 {
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 30px;
+}
+
+.formContainer input {
+    padding: 15px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+.formContainer input:focus {
+    outline: none;
+}
+
+.loginForm form button {
+    background-color: var(--primary-color);
+    color: white;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.loginForm form button:disabled {
+    background-color: #0d0c227a;
+
+}
+
+.loginForm form p {
+    color: var(--primary-color);
+    text-align: center;
+
+}
+
+.loginForm form a {
+    color: #952323;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .loginForm {
+        width: 80%;
+    }
+
+    .loginForm form {
+        width: 50%;
+
+    }
+
+    .loginForm form h2 {
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .loginForm {
+        width: 90%;
+    }
+
+    .loginForm form {
+        width: 80%;
+
+    }
+}

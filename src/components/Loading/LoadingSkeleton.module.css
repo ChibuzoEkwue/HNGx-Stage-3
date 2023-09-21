@@ -1,0 +1,20 @@
+.card {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    animation: skeleton-loading 1s linear infinite alternate;
+}
+
+
+@keyframes skeleton-loading {
+    0% {
+        background-color: hsl(200, 20%, 80%);
+    }
+
+    100% {
+        background-color: hsl(200, 20%, 95%);
+    }
+}
