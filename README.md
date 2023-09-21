@@ -1,6 +1,6 @@
 # HNGx Gram
 
-This ia simple react project built with vite, yup and formik for form validations and firebase for authentication and has the following minimum viable product (MVP)
+This is simple react project built with vite, yup and formik for form validations and firebase for authentication and has the following minimum viable product (MVP)
 
 - [x] Authenticatiion
 - [x] Drag and drop feature
@@ -23,7 +23,7 @@ This application has three pages
 To run clone this project run the following command
 
 ```bash
-git clone https://github.com/ChibuzoEkwue/HNGx-stage-2-frontend.git
+git clone https://github.com/ChibuzoEkwue/HNGx-Stage-3.git
 ```
 
 This project uses firebase for auth so you will need to create a firebase project then create a .env file in the root folder not under src or public and provide the following keys
